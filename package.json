@@ -1,0 +1,29 @@
+{
+  "name": "cra-next",
+  "description": "Create React App ++ next version of React",
+  "version": "1.0.0",
+  "author": "kocisov",
+  "bin": {
+    "cra-next": "./lib/cra-next"
+  },
+  "bugs": {
+    "url": "https://github.com/Kocisov/cra-next/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/Kocisov/cra-next#readme",
+  "keywords": [
+    "App",
+    "Create",
+    "Next",
+    "React",
+    "Version"
+  ],
+  "license": "MIT",
+  "main": "lib/cra-next",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kocisov/cra-next.git"
+  }
+}
