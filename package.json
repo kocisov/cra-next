@@ -25,5 +25,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kocisov/cra-next.git"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
   }
 }

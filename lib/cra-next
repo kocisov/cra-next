@@ -1,17 +1,23 @@
 #!/usr/bin/env node
 
-const { execSync } = require("child_process")
+const { execSync } = require('child_process')
+const { green, red } = require('chalk')
 
 const projectName = process.argv[2]
 
 if (projectName) {
-  execSync(`
+  execSync(
+    `
     create-react-app ${projectName}
     cd ${projectName}
     npm install react@next react-dom@next react-cache
-  `, {
-    stdio: [0, 1, 2]
-  })
+  `,
+    {
+      stdio: [0, 1, 2],
+    },
+  )
+  console.log(green('Created'))
+  return
 } else {
-  console.log('Project name was not provided!')
+  console.log(red('Project name was not provided!'))
 }
